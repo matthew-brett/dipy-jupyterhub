@@ -23,7 +23,7 @@ These are instructions on getting started, assuming you have read the rest of
 this document, explaining how the scripts work.
 
 * Create a new GCE *project* to house the cluster and other resources.  The
-  default one I used here is the project `nipraxis-jupyterhub`.
+  default one I used here is the project `dipy-jupyterhub`.
 * Use GCE to reserve an IP for your cluster to host at; see the "Static IP"
   section below.
 * Configure your DNS to point some domain to the IP above, using an "A" record.
@@ -127,7 +127,7 @@ I believe I cannot create a housing organization, because I am not a G-Suite or
 Cloud Identity customer - see [this
 page](https://cloud.google.com/resource-manager/docs/creating-managing-organization).
 
-I created a project `nipraxis-jupyterhub`.
+I created a project `dipy-jupyterhub`.
 
 I enabled the Kubernetes API via
 <https://console.cloud.google.com/apis/library/container.googleapis.com>.
@@ -196,7 +196,7 @@ Set up DNS to point to this IP.  Wait for it to propagate, at least to the
 console you are using, e.g.
 
 ```
-nslookup hub.nipraxis.org
+nslookup dipy.nipraxis.org
 ```
 
 Set the host name in your `config.yaml`.

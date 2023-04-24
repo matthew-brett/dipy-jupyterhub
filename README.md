@@ -16,8 +16,8 @@ pre-commit install
 * Open [Google Cloud web console](https://console.cloud.google.com), and
   start the web shell, or install the [Google Cloud
   SDK](https://cloud.google.com/sdk) locally.
-* If not done already: `git clone nipraxis/jupyterhub nipraxis-jupyterhub`
-* `cd nipraxis-jupyterhub`
+* If not done already: `git clone matthew-brett/dipy-jupyterhub`
+* `cd dipy-jupyterhub`
 * If setting up configuration from scratch see: "Scripts, starting from
   scratch" section in `./notes.md`.
 * If running or reconfiguring a configured cluster, see: "Start and

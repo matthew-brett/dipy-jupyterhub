@@ -46,7 +46,7 @@ EMAIL="${GCE_EMAIL:-matthew.brett@gmail.com}"
 # Dataset to which billing information will be written
 # See the Google Cloud Billing Export pane for detail; enable daily cost
 # detail, and set up / name dataset there.
-RESOURCE_DATASET=nipraxis_hosting_billing_us
+RESOURCE_DATASET=dipy_hosting_billing_us
 # Disk directories on CLUSTER_DISK (defined in vars.sh).
 HOME_PATH=/spring-2022-homes/
 DATA_PATH=/data/

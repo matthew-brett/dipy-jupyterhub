@@ -167,7 +167,7 @@ gcloud compute disks add-resource-policies ${DISK_NAME} \
 Example of deleting multiple snapshots:
 
 ```
-gcloud compute snapshots list --filter="name~'nipraxis-hub-us.*'" --uri | xargs gcloud compute snapshots delete --quiet
+gcloud compute snapshots list --filter="name~'dipy-hub-us.*'" --uri | xargs gcloud compute snapshots delete --quiet
 ```
 
 

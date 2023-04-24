@@ -1,10 +1,10 @@
 # vi: set ft=bash sts=4 ts=4 sw=4 et:
 # This file usually sourced from ../vars.sh
-PROJECT_ID=nipraxis-jupyterhub
+PROJECT_ID=dipy-jupyterhub
 JHUB_CLUSTER=jhub-cluster
 RELEASE=jhub
 NAMESPACE=jhub
-CLUSTER_DISK=jhub-nipraxis-home-data
+CLUSTER_DISK=jhub-dipy-home-data
 # Allow default pool to further autoscale, if necessary.
 MAX_DEFAULT_NODES=6
 # Config; this one will often have secrets.
