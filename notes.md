@@ -46,6 +46,8 @@ Consider setting your email, if you are a GCE administrator for the relevant pro
 GCE_EMAIL=matthew.brett@gmail.com
 ```
 
+(You can also set the default email in the `vars.sh.common` file).
+
 ```
 # Initialize cluster
 source init_gcloud.sh
@@ -128,6 +130,9 @@ Cloud Identity customer - see [this
 page](https://cloud.google.com/resource-manager/docs/creating-managing-organization).
 
 I created a project `dipy-jupyterhub`.
+
+You may want to create a Billing Account for this cluster, and attach it to
+this project.
 
 I enabled the Kubernetes API via
 <https://console.cloud.google.com/apis/library/container.googleapis.com>.

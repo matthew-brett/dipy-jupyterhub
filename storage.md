@@ -290,3 +290,4 @@ sudo rsync -aAXv old-data/ data/
 
 ```
 gcloud compute disks delete <disk_name>
+```
