@@ -48,5 +48,5 @@ EMAIL="${GCE_EMAIL:-matthew.brett@gmail.com}"
 # detail, and set up / name dataset there.
 RESOURCE_DATASET=dipy_hosting_billing_us
 # Disk directories on CLUSTER_DISK (defined in vars.sh).
-HOME_PATH=/spring-2022-homes/
+HOME_PATH=/dipy-spring-workshop-homes/
 DATA_PATH=/data/
